@@ -1,0 +1,97 @@
+.buttonPage {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+}
+
+.refreshButtons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+
+.refreshButtons > button {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.5s;
+}
+
+.refresh {
+    background-color: rgb(68, 233, 102);
+}
+
+.recycle {
+    background-color: rgb(0, 199, 255);
+}
+
+.refresh:hover {
+    background-color: rgb(196, 196, 196);
+}
+
+.recycle:hover {
+    background-color: rgb(196, 196, 196);
+}
+
+.buttonSet {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+
+.buttonSet > div {
+    margin: 0 10px;
+}
+
+.actionButtons {
+    display: flex;
+    height: 50px;
+    flex-grow: 2;
+}
+
+.actionButtons > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    height: 50px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.5s;
+}
+
+.add {
+    background-color: rgb(131, 131, 131);
+}
+
+.subtract {
+    background-color: rgb(123, 238, 255);
+}
+
+.delete {
+    background-color: rgb(247, 131, 95);
+}
+
+.add:hover {
+    background-color: rgb(196, 196, 196);
+}
+
+.subtract:hover {
+    background-color: rgb(196, 196, 196);
+}
+
+.delete:hover {
+    background-color: rgb(196, 196, 196);
+}
